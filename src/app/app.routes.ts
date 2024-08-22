@@ -10,21 +10,21 @@ export const routes: Routes = [
         component: HomeComponent,
         title: 'home',
     },
-    {
-        path: 'login',
-        component: LoginComponent,
-    },
+
     {
         path: 'signup',
         component: SignupComponent,
+        title: 'signup'
     },
     {
-        path: 'login',
-        component: LoginComponent,
-    },
-    {
+      path: 'login',
+      component: LoginComponent,
+      title: 'login'
+  },
+  {
         path: 'profile',
         component: ProfileComponent,
+        title: 'profile'
     },
     {
         path: '**',
